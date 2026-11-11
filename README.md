@@ -9,6 +9,37 @@
 
 ---
 
+## 📸 Visual Showcase
+
+<div align="center">
+  <img src="screenshots/fantasy-forest-interface.jpg" alt="WILDER Fantasy Forest Living Sanctuary" width="100%" />
+</div>
+
+<p align="center">
+  <em>The WILDER Living Sanctuary interface: ancient tree shrine player, hand-crafted avian controls, natural branch timeline, and lush rainforest atmosphere.</em>
+</p>
+
+<br />
+
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="50%" align="center">
+        <img src="screenshots/wilder-bird-controls.jpg" alt="Bird-Inspired Controls Reference" width="100%" />
+        <br />
+        <strong>Avian Controls & Organic Scrubber</strong>
+      </td>
+      <td width="50%" align="center">
+        <img src="screenshots/rainforest-sanctuary.png" alt="Rainforest Living Canvas" width="100%" />
+        <br />
+        <strong>Atmospheric Rainforest Canvas</strong>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ## 🌿 Vision & Concept
 
 **WILDER** is an award-winning, nature-inspired video player skin engineered specifically for **Video.js v10**. Designed for high-end wildlife cinematography, natural history documentaries, and interactive conservation showcases, WILDER transforms the standard media player into a living fantasy forest sanctuary.
@@ -85,7 +116,7 @@ WILDER complies with **WCAG 2.1 AA** accessibility standards:
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/wilder-cinema/wilder-videojs-skin.git
+git clone https://github.com/Barkat-N-ad-dev/wilder-videojs-skin.git
 cd wilder-videojs-skin
 npm install
 ```
