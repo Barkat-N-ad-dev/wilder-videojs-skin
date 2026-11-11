@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <radialGradient id="abyssGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#08233a"/>
+      <stop offset="45%" stop-color="#041220"/>
+      <stop offset="85%" stop-color="#020813"/>
+      <stop offset="100%" stop-color="#01040a"/>
+    </radialGradient>
+    <radialGradient id="sonarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0, 217, 245, 0.25)"/>
+      <stop offset="60%" stop-color="rgba(0, 217, 245, 0.05)"/>
+      <stop offset="100%" stop-color="rgba(0, 217, 245, 0)"/>
+    </radialGradient>
+    <pattern id="bathymetryGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(0, 217, 245, 0.05)" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.5" fill="rgba(0, 217, 245, 0.15)"/>
+    </pattern>
+    <linearGradient id="scanBeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0, 217, 245, 0)"/>
+      <stop offset="50%" stop-color="rgba(0, 217, 245, 0.15)"/>
+      <stop offset="100%" stop-color="rgba(0, 217, 245, 0)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Void -->
+  <rect width="100%" height="100%" fill="url(#abyssGrad)"/>
+  <rect width="100%" height="100%" fill="url(#bathymetryGrid)"/>
+
+  <!-- Sonar Center Glow -->
+  <circle cx="960" cy="540" r="420" fill="url(#sonarGlow)"/>
+
+  <!-- Concentric Sonar Range Rings -->
+  <circle cx="960" cy="540" r="140" fill="none" stroke="rgba(0, 217, 245, 0.22)" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <circle cx="960" cy="540" r="280" fill="none" stroke="rgba(0, 217, 245, 0.18)" stroke-width="1.5" stroke-dasharray="6 8"/>
+  <circle cx="960" cy="540" r="420" fill="none" stroke="rgba(0, 217, 245, 0.25)" stroke-width="2"/>
+  <circle cx="960" cy="540" r="500" fill="none" stroke="rgba(0, 217, 245, 0.12)" stroke-width="1"/>
+
+  <!-- Crosshairs -->
+  <line x1="420" y1="540" x2="1500" y2="540" stroke="rgba(0, 217, 245, 0.2)" stroke-width="1.5"/>
+  <line x1="960" y1="120" x2="960" y2="960" stroke="rgba(0, 217, 245, 0.2)" stroke-width="1.5"/>
+
+  <!-- Submersible Chamber Reticle Markers -->
+  <path d="M 860 440 L 840 440 L 840 460" fill="none" stroke="#00d9f5" stroke-width="2.5"/>
+  <path d="M 1060 440 L 1080 440 L 1080 460" fill="none" stroke="#00d9f5" stroke-width="2.5"/>
+  <path d="M 860 640 L 840 640 L 840 620" fill="none" stroke="#00d9f5" stroke-width="2.5"/>
+  <path d="M 1060 640 L 1080 640 L 1080 620" fill="none" stroke="#00d9f5" stroke-width="2.5"/>
+
+  <!-- Hydrographic Depth Contours -->
+  <path d="M 120 780 Q 480 620 960 720 T 1800 680" fill="none" stroke="rgba(31, 162, 181, 0.25)" stroke-width="2"/>
+  <path d="M 80 840 Q 520 700 960 800 T 1840 760" fill="none" stroke="rgba(31, 162, 181, 0.18)" stroke-width="2"/>
+  <path d="M 60 920 Q 560 780 960 880 T 1880 840" fill="none" stroke="rgba(31, 162, 181, 0.12)" stroke-width="2"/>
+
+  <!-- Technical Telemetry Typography -->
+  <g font-family="'JetBrains Mono', monospace" font-size="14" fill="#6ba8ba" letter-spacing="2">
+    <text x="80" y="90">SYS: OBSERVATION CHAMBER [ONLINE]</text>
+    <text x="80" y="115">UNIT: ARCHELON-01 // HADAL RECON</text>
+    <text x="80" y="140">DEPTH: 10,928 M // 1,085 BAR</text>
+
+    <text x="1560" y="90" text-anchor="end">LOC: 11°22′N 142°15′E</text>
+    <text x="1560" y="115" text-anchor="end">ACOUSTIC SONAR: 42.5 kHz</text>
+    <text x="1560" y="140" text-anchor="end">SIGNAL LOCK: 99.4% [STABLE]</text>
+  </g>
+
+  <!-- Title Center -->
+  <g font-family="'JetBrains Mono', monospace" text-anchor="middle">
+    <text x="960" y="525" font-size="34" font-weight="700" fill="#e6f6f9" letter-spacing="8">ABYSSAL-01</text>
+    <text x="960" y="565" font-size="15" fill="#00d9f5" letter-spacing="4">DEEP OCEAN OBSERVATION SYSTEM</text>
+    <text x="960" y="600" font-size="12" fill="#538394" letter-spacing="2">VIDEO.JS V10 DESIGN CHALLENGE</text>
+  </g>
+</svg>

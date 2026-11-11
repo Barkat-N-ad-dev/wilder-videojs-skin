@@ -1,0 +1,79 @@
+:root {
+  /* ==========================================================================
+     ABYSSAL-01 DESIGN SYSTEM TOKENS
+     Deep Ocean Observation System | Video.js v10 Skin Entry
+     ========================================================================== */
+
+  /* Surface & Depth Colors */
+  --abyss-void: #020813;
+  --abyss-deep: #051324;
+  --abyss-chamber: #081d33;
+  --abyss-panel: #0c2742;
+  --abyss-ridge: #13385c;
+  --abyss-hull: #0b1a29;
+
+  /* Oceanic Teal Spectrum */
+  --abyss-teal-dim: #093c4a;
+  --abyss-teal: #146b7a;
+  --abyss-teal-glow: #1fa2b5;
+  --abyss-teal-bright: #2dd4bf;
+
+  /* Bioluminescent Cyan (Primary Instrument Accent) */
+  --abyss-cyan-deep: #003e4d;
+  --abyss-cyan-dim: #006b85;
+  --abyss-cyan: #00d9f5;
+  --abyss-cyan-hot: #5ce6ff;
+  --abyss-cyan-glow: rgba(0, 217, 245, 0.25);
+  --abyss-cyan-glow-intense: rgba(0, 217, 245, 0.45);
+  --abyss-cyan-wash: rgba(0, 217, 245, 0.08);
+
+  /* Tactical Amber & Warnings */
+  --abyss-amber-dim: #5c3200;
+  --abyss-amber: #f59e0b;
+  --abyss-amber-hot: #fbbf24;
+  --abyss-amber-glow: rgba(245, 158, 11, 0.3);
+  --abyss-red-alert: #ef4444;
+  --abyss-green-safe: #10b981;
+
+  /* Instrument Metallurgy & Structural Glass */
+  --abyss-metal-dark: #0a1520;
+  --abyss-metal: #162636;
+  --abyss-metal-mid: #253d52;
+  --abyss-metal-lite: #38566f;
+  --abyss-bezel: #1e394f;
+  --abyss-glass: rgba(8, 29, 51, 0.72);
+  --abyss-glass-thick: rgba(5, 19, 36, 0.88);
+  --abyss-glass-border: rgba(0, 217, 245, 0.22);
+  --abyss-glass-glow: 0 8px 32px 0 rgba(0, 10, 25, 0.55);
+
+  /* Typography Hierarchy */
+  --abyss-text-primary: #e6f6f9;
+  --abyss-text-secondary: #90c7d6;
+  --abyss-text-muted: #538394;
+  --abyss-text-label: #6ba8ba;
+  --abyss-text-cyan: #00d9f5;
+  --abyss-text-amber: #f59e0b;
+
+  /* Font Families */
+  --abyss-font-mono: 'JetBrains Mono', 'SF Mono', 'Courier New', monospace;
+  --abyss-font-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', system-ui, sans-serif;
+
+  /* Radii */
+  --abyss-radius-xs: 2px;
+  --abyss-radius-sm: 4px;
+  --abyss-radius-md: 8px;
+  --abyss-radius-lg: 14px;
+  --abyss-radius-pill: 9999px;
+
+  /* Elevation Shadows & Glows */
+  --abyss-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.6);
+  --abyss-shadow-md: 0 4px 20px rgba(0, 4, 12, 0.85);
+  --abyss-shadow-chamber: 0 0 50px rgba(0, 217, 245, 0.08), inset 0 0 60px rgba(0, 4, 12, 0.9);
+  --abyss-shadow-cyan-sm: 0 0 10px rgba(0, 217, 245, 0.35);
+  --abyss-shadow-cyan-lg: 0 0 25px rgba(0, 217, 245, 0.5);
+
+  /* Transitions */
+  --abyss-t-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --abyss-t-normal: 250ms cubic-bezier(0.16, 1, 0.3, 1);
+  --abyss-t-slow: 450ms cubic-bezier(0.16, 1, 0.3, 1);
+}
